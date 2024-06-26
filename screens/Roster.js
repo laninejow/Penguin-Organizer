@@ -6,7 +6,7 @@ const roster = [
   {
     id: '1',
     name: 'Noel Acciari',
-    photo: require('../assets/noel_acciari.png'), // Add player photo in assets
+    photo: require('../assets/noel_acciari.png'), 
     number: 55,
     position: 'C',
     shoot: 'R',
@@ -18,7 +18,7 @@ const roster = [
   {
     id: '2',
     name: 'Emil Bemstrom',
-    photo: require('../assets/emil_bemstrom.png'), // Add player photo in assets
+    photo: require('../assets/emil_bemstrom.png'), 
     number: 52,
     position: 'C',
     shoot: 'R',
@@ -30,7 +30,7 @@ const roster = [
   {
     id: '3',
     name: 'Michael Bunting',
-    photo: require('../assets/michael_bunting.png'), // Add player photo in assets
+    photo: require('../assets/michael_bunting.png'), 
     number: 8,
     position: 'LW',
     shoot: 'L',
@@ -42,7 +42,7 @@ const roster = [
   {
     id: '4',
     name: 'Jeff Carter',
-    photo: require('../assets/jeff_carter.png'), // Add player photo in assets
+    photo: require('../assets/jeff_carter.png'), 
     number: 77,
     position: 'C',
     shoot: 'R',
@@ -54,7 +54,7 @@ const roster = [
   {
     id: '5',
     name: 'Sidney Crosby',
-    photo: require('../assets/sidney_crosby.png'), // Add player photo in assets
+    photo: require('../assets/sidney_crosby.png'), 
     number: 8,
     position: 'LW',
     shoot: 'L',
