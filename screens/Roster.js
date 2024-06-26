@@ -1,7 +1,6 @@
 // screens/Roster.js
 import React, { useState } from 'react';
 import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity } from 'react-native';
-import DropDownPicker from 'react-native-dropdown-picker';
 
 const roster = [
   {
@@ -42,15 +41,27 @@ const roster = [
   },
   {
     id: '4',
-    name: 'Sidney Crosby',
-    photo: require('../assets/sidney_crosby.png'), // Add player photo in assets
+    name: 'Jeff Carter',
+    photo: require('../assets/jeff_carter.png'), // Add player photo in assets
     number: 77,
     position: 'C',
-    shoot: 'L',
-    height: `5'11"`,
+    shoot: 'R',
+    height: `6'3"`,
     weight: 200,
     born: 'Aug 7, 1987',
-    birthplace: 'Cole Harbour, Nova Scotia, CAN',
+    birthplace: 'London, Ontario, CAN',
+  },
+  {
+    id: '5',
+    name: 'Sidney Crosby',
+    photo: require('../assets/sidney_crosby.png'), // Add player photo in assets
+    number: 8,
+    position: 'LW',
+    shoot: 'L',
+    height: `6'0"`,
+    weight: 192,
+    born: 'Sep 17, 1995',
+    birthplace: 'Scarborough, Ontario, CAN',
   },
   // Add more players as needed
 ];

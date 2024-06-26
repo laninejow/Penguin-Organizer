@@ -20,7 +20,7 @@ export default function Score() {
           <View style={styles.itemContainer}>
             <Text style={styles.date}>{item.date}</Text>
             <Text style={styles.opponent}>{item.opponent}</Text>
-            <Text style={styles.result}>{item.result}</Text>
+            <Text style={[styles.result, { color: item.result.startsWith('W') ? 'green' : 'red' }]}>{item.result}</Text>
             <Text style={styles.record}>{item.record}</Text>
             <Text style={styles.goalie}>Goalie: {item.goalie}</Text>
             <Text style={styles.topPerformer}>Top Performer: {item.topPerformer}</Text>
