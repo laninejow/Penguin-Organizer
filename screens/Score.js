@@ -6,6 +6,13 @@ const schedule = [
   { id: '1', date: 'Tue, Oct 10', opponent: 'vs Chicago', result: 'L 4-2', record: '0-1-0', goalie: 'Jarry', topPerformer: 'Jarry' },
   { id: '2', date: 'Fri, Oct 13', opponent: '@ Washington', result: 'W 4-0', record: '1-1-0', goalie: 'Jarry', topPerformer: 'Malkin' },
   { id: '3', date: 'Sat, Oct 14', opponent: 'vs Calgary', result: 'W 5-2', record: '2-1-0', goalie: 'Nedeljkovic', topPerformer: 'Guentzel' },
+  { id: '4', date: 'Wed, Oct 18', opponent: 'vs Detroit', result: 'L 6-3', record: '2-2-0', goalie: 'Jarry', topPerformer: 'Karlsson' },
+  { id: '5', date: 'Sat, Oct 21', opponent: 'vs St. Louis', result: 'L 4-2', record: '2-3-0', goalie: 'Jarry', topPerformer: 'Eller' },
+  { id: '6', date: 'Tue, Oct 24', opponent: 'vs Dallas', result: 'L 4-1', record: '2-4-0', goalie: 'Nedeljkovic', topPerformer: 'Guentzel' },
+  { id: '7', date: 'Thu, Oct 26', opponent: 'vs Colorado', result: 'W 4-0', record: '3-4-0', goalie: 'Jarry', topPerformer: 'Jarry' },
+  { id: '8', date: 'Sat, Oct 28', opponent: 'vs Ottawa', result: 'L 5-2', record: '3-5-0', goalie: 'Jarry', topPerformer: 'Guentzel' },
+  { id: '9', date: 'Mon, Oct 30', opponent: 'vs Anaheim', result: 'L 4-3', record: '3-6-0', goalie: 'Jarry', topPerformer: 'Karlsson' },
+  { id: '10', date: 'Sat, Nov 4', opponent: 'vs San Jose', result: 'W 4-0', record: '4-6-0', goalie: 'Jarry', topPerformer: 'Guentzel' },
   // Add more games as needed
 ];
 

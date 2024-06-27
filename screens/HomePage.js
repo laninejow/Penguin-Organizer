@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <View style={styles.container}>
       <Image source={require('../assets/penguins_logo.png')} style={styles.logo} />
-      <Text style={styles.title}>Welcome to the Pittsburgh Penguins App</Text>
+      <Text style={styles.title}>Welcome to the Pittsburgh Penguins 2024 App</Text>
     </View>
   );
 }
