@@ -18,7 +18,7 @@ const schedule = [
 
 export default function Score() {
   return (
-    <View style={styles.container}>
+    <View style={styles.container}> 
       <Text style={styles.title}>2023-24 Game Schedule</Text>
       <FlatList
         data={schedule}

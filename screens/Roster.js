@@ -26,7 +26,7 @@ const roster = [
     weight: 195,
     born: 'Jun 1, 1999',
     birthplace: 'Nykoping, SWE',
-  },
+  }, 
   {
     id: '3',
     name: 'Michael Bunting',
